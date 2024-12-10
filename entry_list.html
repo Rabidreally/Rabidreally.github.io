@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entry List</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<ul>
+    <li class="dropdown">
+        <a href="/Users/euancampbell/Downloads/School/Website/homepage.html">Homepage</a>
+        <a href="/Users/euancampbell/Downloads/School/Website/explanation.html">About This Site</a>
+    </li>
+</ul>
+
+<h1>List of Entries</h1>
+
+<button type="button" class="collapsible">'Journal' Entries (Click to expand)</button>
+<div class="content">
+    <ol>
+        <l1><button type="button" class="collapsible">Stars</button>
+            <div class="content">
+                <div class = "basics">
+                    <a href="/Users/euancampbell/Downloads/School/Website/Blogs/lc_stars.html"><img src="https://c.pxhere.com/photos/7e/e2/star_milky_way_background_night_starry_sky_night_sky_space_texture-674008.jpg!d" alt="Stars Blog" style="width:740px;height:460px;display:block;margin-left:auto;margin-right:auto;"></a>
+                    <h2>Stars.</h2>
+                    <p>I look outside my window, and I look up. There are no stars. There are no clouds. There is nothing but void, and that is… wrong.</p>
+                </div>
+            </div>
+        </l1>
+        <l1><button type="button" class="collapsible">Time</button>
+            <div class="content">
+                <div class = "basics">
+                    <a href="/Users/euancampbell/Downloads/School/Website/Blogs/lc_time.html"><img src="https://p0.pikist.com/photos/815/1009/fantasy-time-space-man-old-earth-steampunk-clock-science.jpg" alt="Time Blog" style="width:740px;height:460px;display:block;margin-left:auto;margin-right:auto;"></a>
+                    <h2>Time.</h2>
+                    <p>Life has never felt so impermanent before. I blink, and a day has passed. I try to feel sorrow at the lost time, but I am met with something close to apathy. This fog in my mind that secludes the present from the moment. That abstracts living from life.</p>
+                </div>
+            </div>
+        </l1>
+        <l1><button type="button" class="collapsible">Mantra</button>
+            <div class="content">
+                <div class = "basics">
+                    <a href="/Users/euancampbell/Downloads/School/Website/Blogs/lc_mantra.html"><img src="https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsb2ZmaWNlMjBfY2xvc2V1cF9hXzEwX3NoYXJkc19vZl9icm9rZW5fZ2xhc3NfZXhwbG9kaW5nX18wYWI5M2FjZi1hMGIwLTRlYjAtOWI2Mi1iOGFmZDc5NDQ4MzZfMi5qcGc.jpg" alt="Mantra Blog" style="width:740px;height:460px;display:block;margin-left:auto;margin-right:auto;"></a>
+                    <h2>Mantra.</h2>
+                    <p>Sometimes, when my mind runs dry of topics of thought, a particular phrase starts to take root and repeat itself over and over. Just imagine having one bar or one part of a song stuck in your head. It's that same issue.</p>
+                </div>
+            </div>
+        </l1>
+    </ol>
+</div>
+
+<button type="button" class="collapsible">Short Story Entries (Click to expand)</button>
+<div class="content">
+</div> 
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
+
+</body>
+</html>
