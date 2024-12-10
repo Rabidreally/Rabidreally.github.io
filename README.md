@@ -1,2 +1,2 @@
 # Entry-hosting
-A website to stroe all my journal entries and short stories.
+A website to store all my journal entries and short stories.
